@@ -16,12 +16,17 @@
   visibility: hidden;
   height: 0;
   line-height: 0;
+  overflow: auto;
 }
 
 .clear {
   clear: both;
 }
 
+div {
+  column-count: 3;
+  column-rule-width: 10px;
+}
 /* Positioning Classes */
 
 
