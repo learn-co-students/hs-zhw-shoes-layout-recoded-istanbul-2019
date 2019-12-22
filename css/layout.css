@@ -7,6 +7,12 @@
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
+  
+}
+
+img, video, audio {
+  max-width: 100%;
+
 }
 
 .clearfix:after {
@@ -24,4 +30,18 @@
 
 /* Positioning Classes */
 
+.col-1{
+  float: left;
+  width: 66%;
+}
+.col-2{
+  float: right;
+  width: 31%;
+  margin: 1%;
+}
+.col-3{
+  float: left;
+  width: 31%;
+  margin: 1%;
+}
 
