@@ -1,4 +1,4 @@
-/********** Web Fonts **********/
+  /********** Web Fonts **********/
 @import url(http://fonts.googleapis.com/css?family=Elsie+Swash+Caps:400,900); /* font-family: 'Elsie Swash Caps', cursive; */
 @import url(http://fonts.googleapis.com/css?family=Clicker+Script); /* font-family: 'Clicker Script', cursive; */
 
@@ -300,6 +300,38 @@ footer {
 footer a {
   color: #555;
   text-decoration: underline;
+}
+
+.col1{
+  float: left;
+  width: 32%;
+}
+
+.col2{
+  float: left;
+  width: 66%;
+}
+
+.col3{
+  background: #ccc;
+}
+
+.clearFix::after{
+  content: '.';
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+  display: block;
+}
+
+[class*=col]{
+  margin-left: 2%;
+  margin-top: 2%;
+}
+.first{
+  clear: both;
+  margin-left: 0;
 }
 
 /* code examples copyright Jonathan Grover 2012 */
