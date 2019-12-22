@@ -16,6 +16,7 @@
   visibility: hidden;
   height: 0;
   line-height: 0;
+  
 }
 
 .clear {
@@ -24,4 +25,16 @@
 
 /* Positioning Classes */
 
+.shadow.clearfix{
+  float: right;
 
+}
+
+.shadow {
+  display: inline-block;
+}
+
+#social {
+  position: fixed;
+  display: block;
+}
