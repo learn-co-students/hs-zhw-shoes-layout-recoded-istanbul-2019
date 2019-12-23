@@ -21,7 +21,12 @@
 .clear {
   clear: both;
 }
-
+.col{
+  column-count: 3;
+}
 /* Positioning Classes */
 
 
+*{
+  box-sizing: border-box;
+}
