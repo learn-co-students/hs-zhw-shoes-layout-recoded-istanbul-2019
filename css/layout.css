@@ -1,9 +1,9 @@
 /********** Fixes **********/
 
 * {
-  margin:0;
-  padding:0;
-  border:0;
+  margin: 0;
+  padding: 0;
+  border: 0;
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -24,4 +24,64 @@
 
 /* Positioning Classes */
 
+#grass {
+  position: relative;
+  bottom: 80%;
+  width: 65%;
+  display: inline-block;
+  margin-right: 5%;
+  margin-bottom: 5%;
+}
+#archive {
+  width: 280px;
+  position: relative;
+  top: 15px;
+  display: inline-block;
+  padding-bottom: 19px;
+}
 
+#milkText {
+  padding-top: 2.5%;
+  margin-bottom: 1px;
+}
+
+#pabuc {
+  display: inline-block;
+  width: 32%;
+  margin-right: 1.5%;
+}
+
+#converse {
+  display: inline-block;
+  width: 32%;
+  margin-right: 1.5%;
+}
+
+#heels {
+  display: inline-block;
+  width: 32%;
+}
+
+/* #foot1{
+  display: inline-block;
+} */
+
+#contact {
+  display: inline-block;
+  padding-right: 15%;
+  margin-right: 2%;
+}
+
+#links {
+  display: inline-block;
+  margin-right: 3.4%;
+  padding-right: 8%;
+  position: relative;
+  bottom: 10px;
+}
+
+#follow {
+  position: relative;
+  display: inline-block;
+  bottom: 40px;
+}
