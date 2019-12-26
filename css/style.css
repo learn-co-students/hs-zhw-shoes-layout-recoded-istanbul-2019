@@ -114,6 +114,38 @@ iframe {
   box-shadow: 0 3px 10px #333;
 }
 
+.col-2{
+  width: 66%;
+  float:left;
+  height: 580px;
+}
+
+.col-1 {
+  width:32%;
+  float:left;
+  margin-left:2%;
+  height: 580px;
+}
+
+.col-3 {
+  width:32%;
+  float:left;
+  height: 340px;
+}
+
+.col-4 {
+  width:32%;
+  float:left;
+  height: 340px;
+  margin-left:2%;
+}
+
+.first {
+  margin-left: 0;
+}
+[class*="col-"] {
+margin-bottom: 2%;
+}
 .milk_text {
   font: bold 42px 'Elsie Swash Caps', cursive;
   color: white;
@@ -220,6 +252,7 @@ iframe {
   width: 40px;
   z-index: 1;
 }
+
 
 a.fbook, a.twitt, a.gplus {
   display: block;
