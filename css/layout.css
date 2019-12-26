@@ -24,4 +24,9 @@
 
 /* Positioning Classes */
 
+.shadow {
+  float: right;
+  display: inline-block;
+}
+
 
