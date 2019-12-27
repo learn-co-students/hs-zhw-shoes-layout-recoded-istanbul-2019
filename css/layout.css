@@ -25,3 +25,30 @@
 /* Positioning Classes */
 
 
+
+article {
+  display: grid;
+  grid-template-columns: 33% 33% 30%;
+  grid-template-rows: 22% 22% 22%;
+  justify-content: space-between;
+  
+}
+
+.featured1 {
+  display: grid;
+  grid-template-columns: 68% 30% ;
+  grid-template-rows: 22% 22% ;
+  justify-content: space-between;
+  margin-bottom: 3%;
+  
+}
+
+
+#details .wrapper {
+  display: grid;
+  grid-template-columns: 32% 30% 30%;
+  justify-content: space-between;
+
+}
+
+
