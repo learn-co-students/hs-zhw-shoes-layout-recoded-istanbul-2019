@@ -8,7 +8,9 @@
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
 }
-
+.clearfix{
+  overflow: auto;
+}
 .clearfix:after {
   content: ".";
   display: block;
@@ -23,5 +25,29 @@
 }
 
 /* Positioning Classes */
+.shadow-50{
+  display: flex;
+  justify-content: space-between;
 
+}
+.shadow-50 section:first-of-type{
+  width: 75%;
 
+}
+.width33{
+  display: flex;
+  justify-content: space-between;
+}
+.width33 section{
+  width: 33.333333%;
+  margin: 10px auto;
+  box-sizing: border-box;
+
+}
+
+#details .wrapper{
+  display: flex;
+}
+#details .wrapper .border_right{
+  width: 33.333333%
+}
