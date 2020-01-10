@@ -112,7 +112,7 @@ iframe {
 
 .shadow {
   box-shadow: 0 3px 10px #333;
-}
+  }
 
 .milk_text {
   font: bold 42px 'Elsie Swash Caps', cursive;
@@ -133,7 +133,14 @@ iframe {
 .contact_form {
   height: 415px;
 }
-
+#leftside{
+  float:left;
+  width:60%;
+}
+#rightside{
+  float:right;
+  width:30%;
+}
 /********** Header **********/
 
 /********** Nav Bar **********/
@@ -287,7 +294,9 @@ section a {
 #details a:hover, #details a:active {
   text-decoration: underline;
 }
-
+.border_right{
+  float:left;
+}
 /********** Footer **********/
 
 footer {
