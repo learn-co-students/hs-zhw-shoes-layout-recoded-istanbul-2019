@@ -20,8 +20,22 @@
 
 .clear {
   clear: both;
+  margin-bottom: 2%;
 }
 
 /* Positioning Classes */
-
+.col-1{
+  width: 66%;
+ 
+ }
+ .col-2{
+   width: 32%;
+ }
+[class*="col-"]{
+  float: left;
+  margin-left: 1%;
+}
+[class*="col-"]:first-child{
+  margin-left: 0;
+}
 
