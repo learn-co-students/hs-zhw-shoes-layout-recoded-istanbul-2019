@@ -24,4 +24,43 @@
 
 /* Positioning Classes */
 
+#wood .wrapper .milk_text {
+  margin: 10px 0;
+}
+#wood .wrapper .shadow {
+  background-color: white;
+}
+#wood .wrapper #mid {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background: none;
+  padding: 0;
+  
+}
+#wood .wrapper #mid .shadow:first-child{
+  flex-basis: 67%;
+  margin-right: 15px;
+  margin-bottom: 20px;
+}
+#wood .wrapper #mid .shadow:nth-child(2){
+  flex-basis: 300px;
+  margin-bottom: 20px;
 
+}
+#wood .wrapper #mid .shadow:nth-child(3){
+  flex-basis: 31.1%;
+}
+#wood .wrapper #mid .shadow:nth-child(4){
+  flex-basis: 31.1%;
+}
+#wood .wrapper #mid .shadow:nth-child(5){
+  flex-basis: 31.1%;
+}
+#details.clearfix .wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
