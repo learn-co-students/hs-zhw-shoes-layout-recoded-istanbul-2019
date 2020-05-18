@@ -25,3 +25,19 @@
 /* Positioning Classes */
 
 
+.col-1{
+  width: 30px;
+  float: center;
+}
+
+.col-2 {
+  width:50px;
+float: center;
+}
+[class*="col-"]{
+  margin-right:30px;
+  margin-left: auto;
+}
+.first{
+  margin: auto;
+}
